@@ -1,0 +1,26 @@
+{
+  "stages": [
+    {
+      "stage": "fresh startup before selection",
+      "directory": "",
+      "date": "2026-09-04",
+      "label": "上涨/下跌家数\n请选择通达信目录",
+      "stats_dates": 0
+    },
+    {
+      "stage": "selected own directory; calculation started",
+      "directory": "D:\\TDX",
+      "date": "2026-09-04",
+      "label": "上涨/下跌家数\n正在统计…",
+      "stats_dates": 0
+    },
+    {
+      "stage": "statistics completed with no chart movement",
+      "directory": "D:\\TDX",
+      "date": "2026-09-04",
+      "label": "上涨/下跌家数\n2442 / 2918",
+      "stats_dates": 4806
+    }
+  ],
+  "success": true
+}

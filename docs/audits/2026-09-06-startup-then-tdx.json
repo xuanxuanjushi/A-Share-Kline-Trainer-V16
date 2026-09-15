@@ -1,0 +1,25 @@
+{
+  "stages": [
+    {
+      "stage": "startup without TDX; no input",
+      "date": "2026-08-21",
+      "label": "上涨/下跌家数\n2503 / 2866",
+      "source": ""
+    },
+    {
+      "stage": "TDX import requested; no navigation",
+      "date": "2026-08-21",
+      "label": "上涨/下跌家数\n2503 / 2866",
+      "source": "D:\\TDX"
+    },
+    {
+      "stage": "TDX completed automatically; still no navigation",
+      "date": "2026-09-04",
+      "label": "上涨/下跌家数\n2442 / 2918",
+      "source": "D:\\TDX"
+    }
+  ],
+  "online_index_calls": 0,
+  "online_stats_calls": 0,
+  "success": true
+}

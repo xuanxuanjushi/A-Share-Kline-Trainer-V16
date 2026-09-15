@@ -1,0 +1,25 @@
+{
+  "root": "D:\\TDX",
+  "files": 5572,
+  "index_latest": "2026-09-04",
+  "stats_latest": "2026-09-04",
+  "daily": {
+    "date": "2026-09-04",
+    "up_count": 2442,
+    "down_count": 2918,
+    "flat_count": 189,
+    "amount": 2076026466642.0,
+    "limit_up_count": 41,
+    "limit_down_count": 11
+  },
+  "independent": {
+    "amount": 2076026466642.0,
+    "up": 2442,
+    "down": 2918,
+    "flat": 189,
+    "matched": 5550
+  },
+  "first_rebuild_seconds": 32.21802739999998,
+  "unchanged_check_seconds": 0.3235022999999728,
+  "unchanged_no_update": true
+}

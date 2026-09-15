@@ -1,0 +1,1 @@
+Fresh directory blank; no statistics before selection; real TDX statistics displayed automatically after selection.

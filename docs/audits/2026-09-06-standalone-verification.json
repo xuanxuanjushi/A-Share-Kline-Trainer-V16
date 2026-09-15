@@ -1,0 +1,32 @@
+{
+  "day_files": 9481,
+  "latest_date": "2026-09-04",
+  "verified_files": 9485,
+  "stock_count": 5228,
+  "adjustment_checks": [
+    {
+      "code": "sh600000",
+      "bars": 2626,
+      "adjusted_differs_from_raw": true
+    },
+    {
+      "code": "sh600519",
+      "bars": 2651,
+      "adjusted_differs_from_raw": true
+    },
+    {
+      "code": "sz000001",
+      "bars": 2651,
+      "adjusted_differs_from_raw": true
+    },
+    {
+      "code": "sz300750",
+      "bars": 2001,
+      "adjusted_differs_from_raw": true
+    }
+  ],
+  "gui_source_roundtrip": true,
+  "relocated_exe_alive_8s_without_python_path": true,
+  "appdata_untouched": true,
+  "release_bytes": 676001702
+}

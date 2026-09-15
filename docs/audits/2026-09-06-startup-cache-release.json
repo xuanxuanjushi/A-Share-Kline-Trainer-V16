@@ -1,0 +1,34 @@
+{
+  "executable": "D:\\Young study\\stock-simulator-Cust\\releases\\startup-cache-20260906\\大A日K股票模拟训练器\\大A日K股票模拟训练器.exe",
+  "portable": "D:\\Young study\\stock-simulator-Cust\\releases\\portable-startup-cache-20260906\\大A日K股票模拟训练器-便携版-启动统计修复-20260906",
+  "zip": "D:\\Young study\\stock-simulator-Cust\\releases\\portable-startup-cache-20260906\\大A日K股票模拟训练器-便携版-启动统计修复-20260906.zip",
+  "source_modules_verified": [
+    "stock_simulator",
+    "stock_simulator.adjust",
+    "stock_simulator.app",
+    "stock_simulator.config",
+    "stock_simulator.data_migration",
+    "stock_simulator.engine",
+    "stock_simulator.index_data",
+    "stock_simulator.kline_widget",
+    "stock_simulator.market_stats",
+    "stock_simulator.market_sync",
+    "stock_simulator.models",
+    "stock_simulator.performance",
+    "stock_simulator.performance_overlay",
+    "stock_simulator.persistence",
+    "stock_simulator.portable_builder",
+    "stock_simulator.sample_data",
+    "stock_simulator.session",
+    "stock_simulator.stock_info",
+    "stock_simulator.storage_safety",
+    "stock_simulator.tdx_reader",
+    "stock_simulator.test_trade",
+    "stock_simulator.ui_state"
+  ],
+  "runtime_files_match": true,
+  "smoke": [
+    "regular startup OK; settings isolated",
+    "portable startup OK; settings isolated"
+  ]
+}

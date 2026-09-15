@@ -1,0 +1,38 @@
+{
+  "verified_source_modules": {
+    "stock_simulator\\adjust.py": "fb39746cc8dc3c1781da6b23611477d095cb7d61da7902c8f1b32a54f3051f0b",
+    "stock_simulator\\app.py": "fc8f8b5ff65f4fa6d7b8d2c584a64f912ee8fbc74f8fe5963744b8dec7026e9e",
+    "stock_simulator\\config.py": "110f260febb409cd3b6fb83d254fb7947249c3a0abef05194c714a604e8dc00d",
+    "stock_simulator\\data_migration.py": "f005c09cc4085eaf19dda854e25b5430b47a731e24d60d0c36222989148f5789",
+    "stock_simulator\\engine.py": "681fc691ac6c24f6193d1d3831612c79f90219385cad8df2ab1d777453c25ef2",
+    "stock_simulator\\index_data.py": "068d57f2ac93c8294e86f7d675b6ae2adfc064776ab2b04f0d1a3467f42c039e",
+    "stock_simulator\\kline_widget.py": "3d6276157693ae6975b18aae1c40ca7eb23ea3915ca586a3bc28d7fd2bdf5f95",
+    "stock_simulator\\market_stats.py": "be0c9a537d8dbf03263e2aa0184f7d06ccf207d7a294dff4c6ff1dd0acd00566",
+    "stock_simulator\\models.py": "3c25af9db77c42240a4d2875ac609cbd6beffd5b668caf8f2bcc62416fae45bc",
+    "stock_simulator\\performance.py": "07c4e3d64df96957e58a647c1495245b845587d30b48116c5ebcf54fea014824",
+    "stock_simulator\\performance_overlay.py": "e3eebe4de1d351365905c407ec847abe6cfbd8f706a9961a78cbdca4905f0afa",
+    "stock_simulator\\persistence.py": "f1e9c2114a041b2fd06cb68c08471e39086efb8c26bae862e6d5290cf687e4ae",
+    "stock_simulator\\portable_builder.py": "eb27b16988c5ec21dc661f59266ed15b3181680d68309439c27c5488f5103751",
+    "stock_simulator\\sample_data.py": "7225c00f4fe77c8a395e8fc2b4e2be4df417e00c7317633d012222404d647961",
+    "stock_simulator\\session.py": "c4f3459874711bcf91ed25b25cccf0724573d8a5f676630898523c719358c1c9",
+    "stock_simulator\\stock_info.py": "ac1c909c5b2cb10ba1dd9d3c322ec9bb708f77ef200bec19a2f76dc10c2cc544",
+    "stock_simulator\\storage_safety.py": "a2fae47850ad4c6dc7a1bcc637931402148b0997b659444024a4672dac411397",
+    "stock_simulator\\tdx_reader.py": "bd7c78ed94035393ebae8ef0f85a7ced05d689f1d93ad24bf04d7858c03e8cae",
+    "stock_simulator\\test_trade.py": "c8eb3929aa56ef7abd1d31706595051e80b94b66a1800cee3da7e1001ec91275",
+    "stock_simulator\\ui_state.py": "55155f130655d3beee473b7dd5607e388b8bfb00f744fc6368ea5b4c6245bcff",
+    "stock_simulator\\__init__.py": "4dc5a9ea310996f700ab276b47118f5d33fc890573c5f5888014ee0caa75155f"
+  },
+  "protected_project_data_sha256": {
+    "config\\gbbq_events.bin": "a2a839f3f9a4032530d6fe42006c63443e6e2bce072cb4a35a7d3a60702738be",
+    "config\\gbbq_events.json": "0494559f6950af7f956f7076fcb3c59584ed34922ef79f6d281e7149c5ff374d",
+    "config\\market_stats_daily.json": "567fa61b9ac6ba9506e8617b5ca46da38ac3d519ab3d5bbbbb0a6e842ceba6ad",
+    "config\\performance_history.json": "371b0304e4ec00b7e1793ca9ddd8dc466d97071515ed2f41473647e9dd9dea4e",
+    "config\\settings.json": "0d04beed54abbc7fd1a181e5b81071a335db7c3e39e9897f1ce2fc6f9a5466fd",
+    "config\\shanghai_index_daily.json": "5327c077f2a567854823c3b68bcfc86a25fdc2afa5a51dcd6b44710ebf1fd590"
+  },
+  "portable_directory": "releases\\portable-performance-20260906\\大A日K股票模拟训练器-便携性能优化版-20260906",
+  "runtime_matches_performance_release": true,
+  "portable_initial_data": [
+    "settings.json"
+  ]
+}

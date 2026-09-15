@@ -1,0 +1,2 @@
+Package has current Excel exporter and dependencies; no TDX data or user records.
+{"aligned_exporter_matches_source": true, "openpyxl_bundled": true, "no_tdx_data": true, "empty_profile": true, "relocated_startup_8s": true, "zip_crc_valid": true, "zip_bytes": 88080778, "zip": "D:\\Young study\\stock-simulator-Cust-FULL\\releases\\\u4fbf\u643a\u7248-\u65e0\u884c\u60c5-Excel\u5bf9\u9f50\u4fee\u590d-20260906.zip"}

@@ -1,0 +1,11 @@
+{
+  "source_unchanged": true,
+  "all_nonchart_parts_identical": true,
+  "changes": {
+    "xl/charts/chart1.xml": {
+      "points": 204,
+      "visible_custom_labels": 1
+    }
+  },
+  "output": "C:\\Users\\Administrator\\Desktop\\交易统计-连续复利模式-20230928-20260906-210809-图表修正版.xlsx"
+}

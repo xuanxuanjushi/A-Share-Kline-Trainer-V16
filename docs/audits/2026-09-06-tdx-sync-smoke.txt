@@ -1,0 +1,2 @@
+regular startup OK; settings isolated
+portable startup OK; settings isolated

@@ -1,0 +1,17 @@
+[
+  {
+    "stage": "cached startup",
+    "date": "2026-08-21",
+    "label": "上涨/下跌家数\n123 / 0"
+  },
+  {
+    "stage": "online index only advanced",
+    "date": "2026-09-04",
+    "label": "上涨/下跌家数\n市场统计暂未更新"
+  },
+  {
+    "stage": "pan left shows old cached date",
+    "date": "2026-08-21",
+    "label": "上涨/下跌家数\n123 / 0"
+  }
+]

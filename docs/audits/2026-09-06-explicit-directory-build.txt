@@ -1,0 +1,78 @@
+307 INFO: PyInstaller: 6.17.0, contrib hooks: 2025.10
+307 INFO: Python: 3.10.18 (conda)
+319 INFO: Platform: Windows-10-10.0.19045-SP0
+319 INFO: Python environment: D:\Young study\Python embeded
+324 INFO: Module search paths (PYTHONPATH):
+['D:\\Young study\\Python embeded',
+ 'D:\\Young study\\Python embeded\\Lib',
+ 'D:\\Young study\\Python embeded\\DLLs',
+ 'D:\\Young study\\Python embeded\\Lib\\site-packages',
+ 'D:\\Young study\\Python embeded\\lib\\site-packages\\win32',
+ 'D:\\Young study\\Python embeded\\lib\\site-packages\\win32\\lib',
+ 'D:\\Young study\\Python embeded\\lib\\site-packages\\Pythonwin',
+ 'D:\\Young study\\stock-simulator-Cust']
+1615 INFO: Appending 'datas' from .spec
+1616 INFO: checking Analysis
+1616 INFO: Building Analysis because Analysis-00.toc is non existent
+1616 INFO: Looking for Python shared library...
+1616 INFO: Using Python shared library: D:\Young study\Python embeded\python310.dll
+1617 INFO: Running Analysis Analysis-00.toc
+1617 INFO: Target bytecode optimization level: 0
+1617 INFO: Initializing module dependency graph...
+1618 INFO: Initializing module graph hook caches...
+1642 INFO: Analyzing modules for base_library.zip ...
+2493 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+2572 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+3897 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+5045 INFO: Caching module dependency graph...
+5101 INFO: Analyzing D:\Young study\stock-simulator-Cust\app.py
+5491 INFO: Processing standard module hook 'hook-platform.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+5503 INFO: Processing standard module hook 'hook-PySide6.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+5686 INFO: Processing standard module hook 'hook-shiboken6.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+5795 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+9701 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+13658 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+35045 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+40426 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+40498 INFO: Processing standard module hook 'hook-xml.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+40757 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+40858 INFO: Processing module hooks (post-graph stage)...
+40912 INFO: Performing binary vs. data reclassification (135 entries)
+40953 INFO: Looking for ctypes DLLs
+40993 INFO: Analyzing run-time hooks ...
+40995 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+40996 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+40999 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+41000 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+41002 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+41003 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'D:\\Young study\\Python embeded\\Lib\\site-packages\\PyInstaller\\hooks'
+41019 INFO: Creating base_library.zip...
+41054 INFO: Looking for dynamic libraries
+41356 INFO: Extra DLL search directories (AddDllDirectory): ['D:\\Young study\\Python embeded\\Lib\\site-packages\\shiboken6']
+41356 INFO: Extra DLL search directories (PATH): ['D:\\Young study\\Python embeded\\Lib\\site-packages\\PySide6']
+43386 INFO: Warnings written to D:\Young study\stock-simulator-Cust\build\explicit-directory-20260906\��Kģ�⳴��ѵ����-��Я��\warn-��Kģ�⳴��ѵ����-��Я��.txt
+43429 INFO: Graph cross-reference written to D:\Young study\stock-simulator-Cust\build\explicit-directory-20260906\��Kģ�⳴��ѵ����-��Я��\xref-��Kģ�⳴��ѵ����-��Я��.html
+43453 INFO: checking PYZ
+43453 INFO: Building PYZ because PYZ-00.toc is non existent
+43453 INFO: Building PYZ (ZlibArchive) D:\Young study\stock-simulator-Cust\build\explicit-directory-20260906\��Kģ�⳴��ѵ����-��Я��\PYZ-00.pyz
+43617 INFO: Building PYZ (ZlibArchive) D:\Young study\stock-simulator-Cust\build\explicit-directory-20260906\��Kģ�⳴��ѵ����-��Я��\PYZ-00.pyz completed successfully.
+43624 INFO: checking PKG
+43624 INFO: Building PKG because PKG-00.toc is non existent
+43624 INFO: Building PKG (CArchive) ��A��K��Ʊģ��ѵ����.pkg
+43638 INFO: Building PKG (CArchive) ��A��K��Ʊģ��ѵ����.pkg completed successfully.
+43640 INFO: Bootloader D:\Young study\Python embeded\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+43640 INFO: checking EXE
+43640 INFO: Building EXE because EXE-00.toc is non existent
+43640 INFO: Building EXE from EXE-00.toc
+43641 INFO: Copying bootloader EXE to D:\Young study\stock-simulator-Cust\build\explicit-directory-20260906\��Kģ�⳴��ѵ����-��Я��\��A��K��Ʊģ��ѵ����.exe
+43649 INFO: Copying icon to EXE
+43656 INFO: Copying 0 resources to EXE
+43656 INFO: Embedding manifest in EXE
+43661 INFO: Appending PKG archive to EXE
+43664 INFO: Fixing EXE headers
+43755 INFO: Building EXE from EXE-00.toc completed successfully.
+43759 INFO: checking COLLECT
+43760 INFO: Building COLLECT because COLLECT-00.toc is non existent
+43760 INFO: Building COLLECT COLLECT-00.toc
+44114 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+44121 INFO: Build complete! The results are available in: D:\Young study\stock-simulator-Cust\releases\explicit-directory-20260906

@@ -1,0 +1,16 @@
+{
+  "first_displays": [
+    {
+      "date": "2026-09-04",
+      "seconds": 0.22849159999987023
+    },
+    {
+      "date": "2026-09-04",
+      "seconds": 43.74611050000021
+    }
+  ],
+  "source": "D:\\TDX",
+  "label": "上涨/下跌家数\n2442 / 2918",
+  "completed": true,
+  "network_calls": 0
+}

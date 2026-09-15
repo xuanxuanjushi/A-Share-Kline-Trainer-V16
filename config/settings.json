@@ -1,0 +1,95 @@
+{
+  "tdx_root": "D:\\TDX",
+  "initial_cash": 10000.0,
+  "slot_count": 4,
+  "show_stock_identity": true,
+  "hidden_ma_periods": [
+    5,
+    10,
+    20,
+    60,
+    120,
+    250
+  ],
+  "sub_pane_indicators": [
+    "volume",
+    "macd"
+  ],
+  "pane_height_ratios": [
+    0.62,
+    0.2,
+    0.18
+  ],
+  "hidden_volume_ma_periods": [
+    5,
+    10,
+    20,
+    30,
+    120
+  ],
+  "macd_fast": 12,
+  "macd_slow": 26,
+  "macd_signal": 9,
+  "kdj_n": 9,
+  "kdj_k": 3,
+  "kdj_d": 3,
+  "pane_macd_params": [
+    [
+      12,
+      26,
+      9
+    ],
+    [
+      12,
+      26,
+      9
+    ],
+    [
+      12,
+      26,
+      9
+    ],
+    [
+      12,
+      26,
+      9
+    ]
+  ],
+  "pane_kdj_params": [
+    [
+      9,
+      3,
+      3
+    ],
+    [
+      9,
+      3,
+      3
+    ],
+    [
+      9,
+      3,
+      3
+    ],
+    [
+      9,
+      3,
+      3
+    ]
+  ],
+  "main_overlay_mode": "none",
+  "boll_n": 20,
+  "boll_k": 2.0,
+  "buy_budget": 10000.0,
+  "sell_budget": 0.0,
+  "selected_buy_ratio": 1.0,
+  "selected_sell_ratio": null,
+  "commission_rate": 0.00025,
+  "stamp_tax_rate": 0.0005,
+  "min_commission": 5.0,
+  "training_mode": "continuous",
+  "continuous_compound_mode": true,
+  "performance_handle_visible": true,
+  "adjust_type": "qfq",
+  "random_training_horizon": "6m"
+}

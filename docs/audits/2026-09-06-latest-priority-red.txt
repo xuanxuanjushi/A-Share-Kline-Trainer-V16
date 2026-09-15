@@ -1,0 +1,128 @@
+test_config_rejects_invalid_indicator_elements (test_audit_fixes.AuditFixTests) ... �����ļ��쳣��ԭ���ѱ��ݣ�settings.json.invalid-a4be10546fa24085aba06cd69909e2b7.bak
+ok
+test_corrupt_configuration_displays_recovery_notice (test_audit_fixes.AuditFixTests) ... �����ļ��쳣��ԭ���ѱ��ݣ�settings.json.invalid-4dc83d523cfc4716a5cc8b4dda196554.bak
+ok
+test_corrupt_history_keeps_original_before_future_save (test_audit_fixes.AuditFixTests) ... �����ļ��쳣��ԭ���ѱ��ݣ�performance_history.json.invalid-6d94880beb414df1bfcb3e8043d45570.bak
+ok
+test_corrupt_history_row_does_not_hide_valid_record (test_audit_fixes.AuditFixTests) ... �����ļ��쳣��ԭ���ѱ��ݣ�performance_history.json.invalid-f0e76bccf5dc4121b8ec0aa95e0886e1.bak
+ok
+test_corrupt_session_does_not_stop_window_startup (test_audit_fixes.AuditFixTests) ... �����ļ��쳣��ԭ���ѱ��ݣ�session_state.json.invalid-9430a5ba5be74ac0bfb25a7840e0f2f7.bak
+�����ļ��쳣��ԭ���ѱ��ݣ�session_state.json.invalid-1a6e30f3b9714626ae5c94f316c6e8ca.bak
+ok
+test_engine_invalid_prices_never_change_account (test_audit_fixes.AuditFixTests) ... ok
+test_engine_rejects_fractional_quantity_and_unknown_node (test_audit_fixes.AuditFixTests) ... ok
+test_failed_import_resumes_pending_save_without_changing_file (test_audit_fixes.AuditFixTests) ... ok
+test_import_waiting_dialog_cannot_overwrite_new_session (test_audit_fixes.AuditFixTests) ... ok
+test_invalid_sell_does_not_change_holdings (test_audit_fixes.AuditFixTests) ... ok
+test_invalid_session_does_not_partially_replace_account (test_audit_fixes.AuditFixTests) ... �����ļ��쳣��ԭ���ѱ��ݣ�session_state.json.invalid-4ba60dd613134c96802dfa441fcabf84.bak
+ok
+test_legacy_null_initial_cash_uses_configured_default (test_audit_fixes.AuditFixTests) ... ok
+test_pending_restart_blocks_direct_and_scheduled_persistence (test_audit_fixes.AuditFixTests) ... ok
+test_t_plus_one_and_normal_sell_remain_correct (test_audit_fixes.AuditFixTests) ... ok
+test_unbacked_corrupt_file_cannot_be_overwritten (test_audit_fixes.AuditFixTests) ... �����ļ���ȡ�쳣���޷����ݣ��ѽ�ֹ���ǣ�performance_history.json
+ok
+test_valid_session_round_trip (test_audit_fixes.AuditFixTests) ... ok
+test_alternate_index_file_and_deleted_index_cache (test_market_sync.MarketSyncTests) ... ok
+test_cleared_stats_with_preserved_file_offsets_are_rebuilt (test_market_sync.MarketSyncTests) ... ok
+test_deleted_and_partially_cleared_cache_are_rebuilt (test_market_sync.MarketSyncTests) ... ok
+test_download_during_calculation_keeps_previous_cache (test_market_sync.MarketSyncTests) ... ok
+test_incomplete_download_is_not_committed_and_can_retry (test_market_sync.MarketSyncTests) ... ok
+test_same_directory_append_updates_both_index_and_statistics (test_market_sync.MarketSyncTests) ... ok
+test_same_size_source_edit_recalculates (test_market_sync.MarketSyncTests) ... ok
+test_unchanged_data_does_not_recompute_or_rewrite (test_market_sync.MarketSyncTests) ... ok
+test_fresh_startup_discovers_tdx_and_displays_latest_before_statistics_finish (test_market_sync.MarketSyncWindowTests) ... ok
+test_import_append_and_cache_clear_reach_visible_labels (test_market_sync.MarketSyncWindowTests) ... ok
+test_late_local_statistics_cannot_roll_back_newer_online_index (test_market_sync.MarketSyncWindowTests) ... FAIL
+test_late_network_failure_cannot_replace_local_status (test_market_sync.MarketSyncWindowTests) ... ok
+test_local_update_does_not_replace_training_engine (test_market_sync.MarketSyncWindowTests) ... ok
+test_newer_online_index_replaces_cache_but_older_response_cannot_roll_back (test_market_sync.MarketSyncWindowTests) ... FAIL
+test_old_directory_result_is_discarded (test_market_sync.MarketSyncWindowTests) ... ok
+test_online_is_attempted_even_with_local_directory_and_cached_index (test_market_sync.MarketSyncWindowTests) ... FAIL
+test_same_root_can_be_checked_again_after_completion (test_market_sync.MarketSyncWindowTests) ... ok
+test_startup_advances_to_latest_even_when_statistics_fail (test_market_sync.MarketSyncWindowTests) ... FAIL
+test_stats_only_update_displays_without_full_refresh_or_pan (test_market_sync.MarketSyncWindowTests) ... ok
+test_stats_update_refreshes_held_index_without_touching_training (test_market_sync.MarketSyncWindowTests) ... ok
+test_unchanged_check_does_not_refresh_chart (test_market_sync.MarketSyncWindowTests) ... ok
+test_blank_data_directory_does_not_discover_current_working_directory (test_performance_regressions.PerformanceRegressionTests) ... ok
+test_boll_invalidation_covers_middle_edit_parameters_and_hidden_day (test_performance_regressions.PerformanceRegressionTests) ... ok
+test_boll_repeated_read_reuses_result_and_preserves_values (test_performance_regressions.PerformanceRegressionTests) ... ok
+test_cached_indicators_do_not_change_drawn_output (test_performance_regressions.PerformanceRegressionTests) ... ok
+test_panning_does_not_schedule_save_but_market_step_does (test_performance_regressions.PerformanceRegressionTests) ... ok
+test_rolling_boll_matches_window_reference_over_long_history (test_performance_regressions.PerformanceRegressionTests) ... ok
+test_unchanged_round_log_preserves_row_and_updates_changed_profit (test_performance_regressions.PerformanceRegressionTests) ... ok
+test_tdx_path_rejects_clipboard_paste (test_tdx_path_input.TdxPathInputTests) ... ok
+test_tdx_path_rejects_keyboard_input (test_tdx_path_input.TdxPathInputTests) ... ok
+test_test_runner_never_uses_the_real_user_data_directory (test_test_environment.TestEnvironmentIsolationTests) ... ok
+test_b_shortcut_can_buy_at_selected_test_bar_while_future_bars_remain_visible (test_test_trade.TestTradeApplicationTests) ... ok
+test_browse_with_return_context_keeps_return_controls_but_hides_mode_status (test_test_trade.TestTradeApplicationTests) ... ok
+test_can_buy_immediately_at_selected_test_bar_while_future_bars_remain_visible (test_test_trade.TestTradeApplicationTests) ... ok
+test_current_kline_phase_marker_changes_label_and_price_direction_color (test_test_trade.TestTradeApplicationTests) ... ok
+test_direct_stock_browse_hides_training_mode_panel (test_test_trade.TestTradeApplicationTests) ... ok
+test_held_index_preview_matches_direct_browse_history_view (test_test_trade.TestTradeApplicationTests) ... ok
+test_held_index_preview_matches_formal_training_history_view (test_test_trade.TestTradeApplicationTests) ... ok
+test_held_index_preview_matches_test_trade_visible_dates (test_test_trade.TestTradeApplicationTests) ... ok
+test_held_index_preview_uses_test_trade_viewed_date_and_full_bar (test_test_trade.TestTradeApplicationTests) ... ok
+test_help_menu_explains_test_trade_usage_and_conditions (test_test_trade.TestTradeApplicationTests) ... ok
+test_index_overlay_uses_the_stock_viewed_date_in_history_view (test_test_trade.TestTradeApplicationTests) ... ok
+test_playback_button_badge_follows_formal_mode_and_test_override (test_test_trade.TestTradeApplicationTests) ... ok
+test_random_switch_from_test_restores_formal_holding_without_clear_prompt (test_test_trade.TestTradeApplicationTests) ... ok
+test_return_to_trading_discards_test_state_before_restoring_formal_engine (test_test_trade.TestTradeApplicationTests) ... ok
+test_right_clicking_completed_profit_strip_exits_test_so_another_start_can_be_chosen (test_test_trade.TestTradeApplicationTests) ... ok
+test_start_and_menu_exit_restore_browse_session (test_test_trade.TestTradeApplicationTests) ... ok
+test_test_trade_keeps_training_mode_panel_hidden (test_test_trade.TestTradeApplicationTests) ... ok
+test_test_trades_are_not_persisted_or_archived (test_test_trade.TestTradeApplicationTests) ... ok
+test_windowed_market_strip_height_stays_stable_when_text_wraps (test_test_trade.TestTradeApplicationTests) ... ok
+test_right_double_click_on_candle_body_requests_test_trade_start (test_test_trade.TestTradeGestureTests) ... ok
+test_active_menu_is_clickable_and_uses_exit_label (test_test_trade.TestTradeRulesTests) ... ok
+test_body_hit_accepts_body_and_rejects_wick_only_area (test_test_trade.TestTradeRulesTests) ... ok
+test_inactive_menu_is_grey_and_uses_entry_label (test_test_trade.TestTradeRulesTests) ... ok
+test_test_window_keeps_future_bars_visible_when_selected_bar_was_at_right_edge (test_test_trade.TestTradeRulesTests) ... ok
+test_test_window_preserves_more_existing_future_space (test_test_trade.TestTradeRulesTests) ... ok
+
+======================================================================
+FAIL: test_late_local_statistics_cannot_roll_back_newer_online_index (test_market_sync.MarketSyncWindowTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Young study\stock-simulator-Cust\tests\test_market_sync.py", line 206, in test_late_local_statistics_cannot_roll_back_newer_online_index
+    self.assertEqual(window.engine.current_bar.date, '2026-09-04')
+AssertionError: '2026-08-21' != '2026-09-04'
+- 2026-08-21
++ 2026-09-04
+
+
+======================================================================
+FAIL: test_newer_online_index_replaces_cache_but_older_response_cannot_roll_back (test_market_sync.MarketSyncWindowTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Young study\stock-simulator-Cust\tests\test_market_sync.py", line 180, in test_newer_online_index_replaces_cache_but_older_response_cannot_roll_back
+    self.assertEqual(window.engine.current_bar.date, '2026-09-04')
+AssertionError: '2026-08-21' != '2026-09-04'
+- 2026-08-21
++ 2026-09-04
+
+
+======================================================================
+FAIL: test_online_is_attempted_even_with_local_directory_and_cached_index (test_market_sync.MarketSyncWindowTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Young study\stock-simulator-Cust\tests\test_market_sync.py", line 192, in test_online_is_attempted_even_with_local_directory_and_cached_index
+    pool.globalInstance.return_value.start.assert_called_once()
+  File "D:\Young study\Python embeded\Lib\unittest\mock.py", line 908, in assert_called_once
+    raise AssertionError(msg)
+AssertionError: Expected 'start' to have been called once. Called 0 times.
+
+======================================================================
+FAIL: test_startup_advances_to_latest_even_when_statistics_fail (test_market_sync.MarketSyncWindowTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:\Young study\stock-simulator-Cust\tests\test_market_sync.py", line 146, in test_startup_advances_to_latest_even_when_statistics_fail
+    self.assertEqual(window.engine.current_bar.date, '2026-09-04')
+AssertionError: '2026-08-21' != '2026-09-04'
+- 2026-08-21
++ 2026-09-04
+
+
+----------------------------------------------------------------------
+Ran 72 tests in 32.969s
+
+FAILED (failures=4)
