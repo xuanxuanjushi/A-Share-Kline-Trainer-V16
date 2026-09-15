@@ -1,10 +1,12 @@
 <h1 align="center">大A日K股票模拟训练器</h1>
-<p align="center"><b>A-share Daily K-line Trading Simulator</b></p>
+<p align="center"><b>A-Share Kline Trainer V16</b></p>
 <p align="center">V16 完整版 · Windows 10/11 · Python + PySide6</p>
 
 > 把历史行情当成「今天」来练盘的 Windows 桌面软件：随机抽股票、随机抽日期，在看不到后续走势的情况下练买卖。
 >
 > A Windows desktop practice tool that treats historical bars as "today": random stock, random date, buy/sell without seeing the future.
+
+> 关键词：日K训练、模拟炒股、通达信、A股复盘 / Keywords: a-share, kline, candlestick, trading simulator, trading practice, TDX, PySide6, China stock market
 
 [简体中文](#界面预览) | [English](#english)
 
@@ -16,7 +18,7 @@
 
 本软件读取本机通达信的历史日K数据（没有通达信时使用内置示例数据），隐藏选定日期之后的走势，让你用后面的K线检验自己的判断，用来训练盘感、纪律和仓位管理。
 
-这是较早的一版（V16），只包含个股训练。带板块选股训练的新版见 [a-share-kline-trainer](https://github.com/xuanxuanjushi/a-share-kline-trainer)。
+这是较早的一版（V16），只包含个股训练。带板块选股训练的新版见 [A-Share-Kline-Trainer](https://github.com/xuanxuanjushi/A-Share-Kline-Trainer)。
 
 ## 主要功能
 
@@ -96,7 +98,7 @@ tests/                     自动化测试
 
 **A-share Daily K-line Trading Simulator (V16)** is a Windows desktop practice tool. It loads local TDX (Tongdaxin) daily data, hides everything after a chosen date, and lets you trade bar by bar as if it were the present — then scores your decisions.
 
-This is the earlier release, focused on single-stock training. The newer version with sector-based training lives in [a-share-kline-trainer](https://github.com/xuanxuanjushi/a-share-kline-trainer).
+This is the earlier release, focused on single-stock training. The newer version with sector-based training lives in [A-Share-Kline-Trainer](https://github.com/xuanxuanjushi/A-Share-Kline-Trainer).
 
 ### Highlights
 
