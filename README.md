@@ -16,7 +16,7 @@
 
 本软件读取本机通达信的历史日K数据（没有通达信时使用内置示例数据），隐藏选定日期之后的走势，让你用后面的K线检验自己的判断，用来训练盘感、纪律和仓位管理。
 
-这是较早的一版（V16），只包含个股训练。带板块选股训练的新版见 [stock-simulator-Cust-FULL-department](https://github.com/xuanxuanjushi/stock-simulator-Cust-FULL-department)。
+这是较早的一版（V16），只包含个股训练。带板块选股训练的新版见 [a-share-kline-trainer](https://github.com/xuanxuanjushi/a-share-kline-trainer)。
 
 ## 主要功能
 
@@ -96,7 +96,7 @@ tests/                     自动化测试
 
 **A-share Daily K-line Trading Simulator (V16)** is a Windows desktop practice tool. It loads local TDX (Tongdaxin) daily data, hides everything after a chosen date, and lets you trade bar by bar as if it were the present — then scores your decisions.
 
-This is the earlier release, focused on single-stock training. The newer version with sector-based training lives in [stock-simulator-Cust-FULL-department](https://github.com/xuanxuanjushi/stock-simulator-Cust-FULL-department).
+This is the earlier release, focused on single-stock training. The newer version with sector-based training lives in [a-share-kline-trainer](https://github.com/xuanxuanjushi/a-share-kline-trainer).
 
 ### Highlights
 
